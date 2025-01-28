@@ -41,6 +41,7 @@ seats: An array of integers to indicate whether a seat is booked (1) or availabl
 (0).
 
 Functions 
+
 The system consists of several functions that handle different functionalities: 
 initializeBuses: Initializes the bus data by creating a binary file and setting the bus 
 count to zero. 
@@ -53,5 +54,6 @@ displayBuses: Displays a list of all available buses, including their details.
 bookTicket: Allows users to book a ticket for a specified bus and seat. It checks 
 if the seat is available and stores the booker's name. 
 viewBookings: Displays the booking status of seats for a specified bus. 
+
 main: The entry point of the program, which provides a menu for users to 
 interact with the system. 
