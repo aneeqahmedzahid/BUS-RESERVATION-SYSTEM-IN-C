@@ -1,11 +1,14 @@
 Introduction 
+
 The Bus Reservation System is a console-based application written in C that allows 
 users to manage bus reservations. The system provides functionalities for adding 
 buses, displaying available buses, booking tickets, and viewing bookings. It also 
 includes user authentication to ensure that only authorized personnel can add 
 buses to the system. The application supports two classes of buses: Economy and 
 Business. 
+
 System Overview 
+
 Key Features 
 User Authentication: The system requires a username and password to add 
 new buses. The default credentials are hardcoded as "user" for the username and 
@@ -18,7 +21,9 @@ type and seat number.
 View Bookings: Users can view the booking status of seats for a specific bus. 
 Data Persistence: The system saves bus data to a binary file (bus_data.dat) to 
 ensure that data is retained between program executions. 
+
 Data Structures 
+
 The primary data structure used in the system is the Bus structure, which contains 
 the following fields: 
 busno: An integer representing the bus number. 
@@ -34,7 +39,7 @@ bookerNames: An array of strings to store the names of the passengers who
 booked seats. 
 seats: An array of integers to indicate whether a seat is booked (1) or available 
 (0).
-3 
+
 Functions 
 The system consists of several functions that handle different functionalities: 
 initializeBuses: Initializes the bus data by creating a binary file and setting the bus 
